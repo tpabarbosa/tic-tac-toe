@@ -1,0 +1,27 @@
+{
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "description": "Tic-tac-toe game",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tpabarbosa/tic-tac-toe.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tpabarbosa/tic-tac-toe/issues"
+    },
+    "homepage": "https://github.com/tpabarbosa/tic-tac-toe#readme",
+    "dependencies": {
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
