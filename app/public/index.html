@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Jogo da Velha</title>
 </head>
 
 <body>
-    <h1>Jogo da Velha</h1>
+    <header>
+        <div>
+            MENU
+            <button id="exit-game" class='hidden'>Sair</button>
+        </div>
+        <h1 id="title">Jogo da Velha</h1>
+        <h3 id="status" class="hidden status"> </h3>
+    </header>
+    <main>
+        <div id="main-panel">
+            <h3>Escolha uma das opções</h3>
+            <div id="buttons">
+                <button id="PVP-local">Jogador x Jogador</button>
+                <button id="PVC">Jogador x Computador </button>
+                <button id="PVP-online">Multiplayer</button>
+
+            </div>
+        </div>
+        <div id="game-panel" class="hidden">
+            <section id="player1-area" class="player-area">
+                <h2 id="player1-timer" class="status">0:59</h2>
+                <h2 id="player1-name" class="name">Player 1 ❌</h2>
+                <h2 id="player1-avatar" class="avatar">🐶</h2>
+            </section>
+
+            <section id="board-area" class="board">
+
+                <div class="row">
+                    <div id="1-1" class="cell">-</div>
+                    <div id="1-2" class="cell">-</div>
+                    <div id="1-3" class="cell">-</div>
+                </div>
+                <div class="row">
+                    <div id="2-1" class="cell">-</div>
+                    <div id="2-2" class="cell">-</div>
+                    <div id="2-3" class="cell">-</div>
+                </div>
+                <div class="row">
+                    <div id="3-1" class="cell">-</div>
+                    <div id="3-2" class="cell">-</div>
+                    <div id="3-3" class="cell">-</div>
+                </div>
+
+            </section>
+            <section id="player2-area" class="player-area">
+                <h2 id="player2-timer" class="status">0:59</h2>
+                <h2 id="player2-name" class="name">Player 2 ⭕</h2>
+                <h2 id="player2-avatar" class="avatar">🐱</h2>
+
+            </section>
+
+        </div>
+    </main>
 </body>
+
+<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+<script type="module" src="./js/index.js"></script>
+
 
 </html>
