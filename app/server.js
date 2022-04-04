@@ -4,7 +4,7 @@ const { Server } = require("socket.io");
 const { join } = require("path");
 const { randomUUID } = require("crypto");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const HOST = "0.0.0.0";
 
 const app = express();
