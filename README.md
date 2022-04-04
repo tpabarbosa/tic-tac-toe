@@ -15,6 +15,8 @@ A simple Tic-tac-toe game made in **Órbi Web Games Developer Bootcamp** promote
 
 [ ] - tests
 
+[ ] - improve computer AI
+
 [ ] - add an option to players set their names and avatars
 
 [ ] - save in localStorage player preferences like: name, avatar, should play music, should play sound effects
