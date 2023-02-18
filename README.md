@@ -4,7 +4,7 @@ A simple Tic-tac-toe game made in **Órbi Web Games Developer Bootcamp** promote
 
 ![splash screen](docs/splash_screen.png?raw=true)
 
-> **Try a Live Demo at [https://tpabarbosa-tic-tac-toe.herokuapp.com](https://tpabarbosa-tic-tac-toe.herokuapp.com/)**
+> **Try a Live Demo at [https://tic-tac-toe.adaptable.app/](https://tic-tac-toe.adaptable.app/)**
 
 ## Techs
 

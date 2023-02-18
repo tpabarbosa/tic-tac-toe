@@ -5,7 +5,7 @@ const { join } = require("path");
 
 const IO = require("./src/socket.js");
 
-const PORT = 3000;
+const PORT = 5000;
 const HOST = "0.0.0.0";
 const app = express();
 const httpServer = createServer(app);
